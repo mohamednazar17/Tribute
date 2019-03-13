@@ -1,0 +1,663 @@
+
+    @font-face {
+        font-family: 'Avenir-L';
+        src: url('https://files.supremegolf.com/sgfonts/Fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Avenir-M';
+        src: url('https://files.supremegolf.com/sgfonts/Fonts/c9aeeabd-dd65-491d-b4be-3e0db9ae47a0.woff');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Avenir-H";
+        src: url('https://files.supremegolf.com/sgfonts/Fonts/61bd362e-7162-46bd-b67e-28f366c4afbe.woff');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    body {
+        font-family: 'Avenir-M';
+    }
+
+    .split {
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+
+
+    }
+    a
+    {
+      text-decoration: none;
+      text-align: center;
+    }
+    .blue-left {
+        left: 0;
+        background-color: #274693;
+    }
+
+    .white-right {
+        right: 0;
+        background-color: whitesmoke;
+        color: black;
+        overflow-y:auto;
+    }
+
+    .centered-left {
+
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        line-height: 2;
+
+    }
+
+    .Rectangle-btn-orange {
+        width: 268px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: #fb4c06;
+        color: white;
+        /* margin-left: 10px; */
+        text-align: center;
+        line-height: 2.5
+    }
+
+    .Rectangle-btn-gray {
+        width: 268px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: #b7b7b7;
+        color: white;
+        /* margin-left: 10px; */
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .Rectangle-btn-white {
+        width: 268px;
+        height: 40px;
+        line-height: 2.5;
+        border-radius: 8px;
+        color: #fb4c06;
+        /* margin-left: 10px; */
+        border: solid 2px #fb4c06;
+        margin-top: 10px;
+        background-color: white;
+        text-align: center;
+
+    }
+
+    #button {
+        width: 61px;
+        height: 16px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        text-align: center;
+        color: white;
+    }
+
+    .content {
+        width: 61px;
+        height: 16px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: black;
+    }
+
+    .payment-left-content {
+        line-height: 2;
+    }
+
+    .head {
+        margin-left: 10px;
+        width: 400px;
+    }
+    i{
+      font-size: 30px;
+    }
+
+    .heading-join {
+        width: 440px;
+        height: 64px;
+        font-family: Avenir-M;
+        font-size: 24px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: black;
+        margin-top: 15px;
+    }
+
+    .heading-supreme-golf-left {
+        width: 440px;
+        height: 64px;
+        font-family: Avenir-M;
+        font-size: 24px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: black;
+    }
+   .heading-supreme-golf-right {
+        width: 440px;
+        height: 64px;
+        font-family: Avenir-M;
+        font-size: 24px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 4;
+        letter-spacing: normal;
+        color: black;
+    }
+
+    .sub-heading {
+        width: 300px;
+        height: 18px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: black;
+        margin-top: 10%;
+    }
+
+    .content-text {
+        width: 164px;
+        height: 20px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: white;
+    }
+
+    .centered-right {
+
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        /* color: #ffffff; */
+
+    }
+
+    .footer-right {
+        position: fixed;
+        left: 57%;
+        bottom: 30px;
+        width: 459px;
+        height: 60px;
+        color: #606060;
+        font-family: Avenir-M;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+    }
+ .footer-right-old {
+        position: absolute;
+        left: 15%;
+        bottom: 10px;
+        width: 459px;
+        height: 55px;
+        color: #606060;
+        font-family: Avenir-M;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+margin-top-5px;
+    }
+
+    img {
+        width: 83px;
+        height: 54px;
+
+    }
+
+    /* signin */
+    .gray-left {
+        left: 0;
+        background-color: #eeeeee;
+    }
+
+    .centered-left-common {
+
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+
+    }
+
+    .centered-review-left {
+
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 48%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+
+    }
+
+    .centered-oldpayment-right {
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+
+        /* color: ffffff; */
+
+    }
+
+    .centered-payment-right {
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 46%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        /* color: ffffff; */
+
+    }
+
+    .centered-review-right {
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        /* color: ffffff; */
+
+    }
+
+    .centered-signup-right {
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        /* color: ffffff; */
+
+    }
+
+    .centered-signin-right {
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        /* color: ffffff; */
+
+    }
+
+    .centered-right-common {
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        /* color: ffffff; */
+
+    }
+
+    .centered-right-dash {
+        font-family: 'Avenir-H';
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        /* color: ffffff; */
+
+    }
+
+    .signin-left-content1 {
+        width: 420px;
+        height: 44px;
+        font-family: Avenir-M;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        color:#222222;
+    }
+
+    p {
+        width: 400px;
+    }
+
+    span {
+        color: orangered;
+    }
+
+    .payment-left-content1 {
+        position: absolute;
+        left: 36%;
+        bottom: 20px;
+        width: 250;
+        height: 16px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: black;
+    }
+
+    .thank-left-content {
+        position: absolute;
+        bottom: 20px;
+        width: 420;
+        height: 16px;
+        font-family: Avenir-M;
+        font-size: 14px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: black;
+    }
+
+    .review-left-content {
+        position: absolute;
+        left: 36%;
+        bottom: 20px;
+        width: 250;
+        height: 16px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: black;
+    }
+
+    .signin-left-content {
+        position: absolute;
+        bottom: 20px;
+        width: 250;
+        height: 16px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: black;
+    }
+
+    /* signup */
+    .signup-left-content {
+        position: absolute;
+        left: 36%;
+        bottom: 20px;
+        width: 250;
+        height: 16px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: black;
+    }
+
+    #signup-left-content1 {
+        width: 405px;
+        color: #222222;
+    }
+
+    .checkbox {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .footer-left {
+        position: fixed;
+        left: 7%;
+        bottom: 25px;
+        width: 480px;
+        height: 60px;
+        color: #606060;
+    }
+
+    #footer-left-p {
+        width: 500px;
+    }
+
+    label {
+        width: 140px;
+
+        height: 19px;
+        font-family: Avenir-M;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: black;
+        margin-left: 5px;
+
+    }
+
+    .form {
+        margin-left: 10px;
+    }
+
+    .tribute-heading {
+        position: relative;
+        top:10px;
+        width: 300px;
+        height: 16px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0;
+        letter-spacing: normal;
+        color: black;
+    }
+
+    .signin-right-heading {
+        position: relative;
+        width: 300px;
+        height: 16px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: black;
+    }
+
+    .Rectangle-input {
+        height: 40px;
+        border-radius: 8px;
+        border: solid 1px #b7b7b7;
+        background-color: white;
+        text-align: center;
+    }
+
+    #txtarea {
+        height: 100px;
+        overflow-y: hidden;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .signup-top {
+        position: relative;
+        top: 35px;
+    }
+
+    .review-btn {
+        position: relative;
+        top: 20px;
+    }
+
+    .payment-btn {
+        position: relative;
+        top: 8px;
+    }
+
+    .oldpayment-btn {
+      position:absolute;
+
+    }
+
+    .Account-summery {
+        background-color: #274693;
+        color: white;
+        width: 310px;
+        height: 40px;
+        line-height: 2;
+    }
+
+    .Account-info {
+        background-color: #b7b7b7;
+        color: white;
+        width: 310px;
+        height: 40px;
+        line-height: 2;
+    }
+
+    .Payment-history {
+        background-color: #274693;
+        color: white;
+        width: 310px;
+        height: 40px;
+        line-height: 2;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .dashboard-right-arrow {
+        margin-top: 10px;
+        width: 20px;
+        height: 30px;
+    }
+
+    #dashboard-right-image1 {
+        /* line-height: 2; */
+    }
+
+    #dashboard-right-image2 {
+        /* line-height: 2; */
+    }
+
+    #dashboard-right-image3 {
+        /* line-height: 2; */
+    }
+
+    .User-Information {
+        width: 126px;
+        height: 18px;
+        font-family: Avenir-M;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        color: var(--primary-black);
+    }
+
+    .Account-names {
+        width: 140px;
+        height: 19px;
+        font-family: Avenir-M;
+        font-size: 14px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--primary-black);
+    }
+
+    .Account-names-display {
+        width: 83px;
+        height: 19px;
+        font-family: Avenir-M;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--primary-black);
+    }
+
+    .credit-card {
+        width: 100px;
+    }
+
+    #credit-remove {
+        position: relative;
+        top: 50px;
+    }
